@@ -23,7 +23,7 @@ namespace LookupLemmatizer
 
         public string PluginName { get; } = "Dictionary-based Lemmatizer";
         public string PluginType { get; } = "Lemmatizers";
-        public string PluginVersion { get; } = "1.0.2";
+        public string PluginVersion { get; } = "1.0.3";
         public string PluginAuthor { get; } = "Ryan L. Boyd (ryan@ryanboyd.io)";
         public string PluginDescription { get; } = "This plugin will lemmatize tokens that it receives from a tokenizer (e.g., the Twitter-Aware Tokenizer). Uses a linear \"lookup\" method, which means that this lemmatizer is dictionary-based. Dictionaries used for lemmatization are sourced from:" + Environment.NewLine +
             "https://github.com/michmech/lemmatization-lists";
